@@ -6,6 +6,6 @@ return {
 
   config = function()
     local alpha = require("alpha")
-    alpha.setup(require'alpha.themes.dashboard'.config)
+    alpha.setup(require("alpha.themes.dashboard").config)
   end,
 }

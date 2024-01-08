@@ -1,12 +1,23 @@
 return {
-  "nvim-treesitter/nvim-treesitter",
-  build = ":TSUpdate",
-  config = function()
-    local config = require("nvim-treesitter.configs")
-    config.setup({
-      ensure_installed = { "lua", "query", "elixir", "heex", "javascript", "html" },
-      highlight = { enable = true },
-      indent = { enable = true },
-    })
-  end
+	"nvim-treesitter/nvim-treesitter",
+	build = ":TSUpdate",
+	config = function()
+		local config = require("nvim-treesitter.configs")
+		config.setup({
+			ensure_installed = {
+				"lua",
+				"query",
+				"elixir",
+				"heex",
+				"javascript",
+				"html",
+				"go",
+				"gomod",
+				"gowork",
+				"gosum",
+			},
+			highlight = { enable = true },
+			indent = { enable = true },
+		})
+	end,
 }
