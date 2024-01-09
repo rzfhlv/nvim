@@ -8,11 +8,6 @@ return {
 				null_ls.builtins.formatting.prettier,
 				null_ls.builtins.diagnostics.erb_lint,
 				null_ls.builtins.diagnostics.eslint_d,
-				null_ls.builtins.code_actions.gomodifytags,
-				null_ls.builtins.code_actions.impl,
-				null_ls.builtins.formatting.gofumpt,
-				null_ls.builtins.formatting.goimports,
-				null_ls.builtins.formatting.golines,
 			},
 		})
 
